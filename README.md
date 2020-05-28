@@ -1,5 +1,4 @@
 Basketball Analytics Project
-Drake University
 
 This project was created by the Computer Science Department at Drake University to help analyze the chemistry between groups of players on the Men's Basketball Team at Drake University.
 
