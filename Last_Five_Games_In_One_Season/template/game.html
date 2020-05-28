@@ -1,0 +1,32 @@
+<h3>Select the {{fieldname}}, {{fieldname2}}, & {{fieldname3}}.</h3>
+<form method="POST"> 
+	<br>
+	Season: <select name="gameurl">
+		<option value="mbb-17-18/teamstat.htm">2017-2018</option>
+		<option value="mbb-18-19/teamstat.htm">2018-2019</option>
+	</select><br>
+    <br>
+	Statistics: <select name="statistics">
+        <option value="points_for">Points Scored</option>
+        <option value="points_against">Points by Other Team</option> 
+        <option value="Fouls_by_Team">Fouls</option>
+        <option value="Fouls_by_Opponent">Fouls by Other Team</option>
+        <option value="assists">Assists</option>
+        <option value="turnovers">Turnovers</option>
+        <option value="assists_against">Assists Against</option>
+        <option value="turnovers_forced">Turnovers Forced</option>
+        <option value="shots_missed">Shots Missed</option>
+        <option value="shot_attempts">Shot Attempts</option>
+        <option value="FT_missed">Free Throws Missed</option>
+        <option value="FT_attempted">Free Throws Attempted</option>       
+    </select><br>
+    <br>
+    Games Included: <select name="games">
+		<option value="home">Home Games</option>
+		<option value="away">Away Games</option>
+		<option value="all_games">All Games (not currently working)</option>
+		</select><br>
+        <br>
+        <br>
+	<input type="submit">
+</form>
